@@ -1,0 +1,45 @@
+<!--
+          █  █ █▄ █ █▄ █ █▀▀ ▀▄▀ █▀█ █▄ █
+          ▀▄▄▀ █ ▀█ █ ▀█ ██▄  █  █▄█ █ ▀█ ▄
+                © Copyright 2024
+            ✈ https://t.me/unneyon
+           📩 https://vk.com/unneyon
+
+ 🔒 Licensed under CC-BY-NC-ND 4.0 unless otherwise specified.
+ 🌐 https://creativecommons.org/licenses/by-nc-nd/4.0
+ + attribution
+ + non-commercial
+ + no-derivatives
+
+ You CANNOT edit this file without direct permission from the author.
+ You can redistribute this file without any changes.
+-->
+
+<!DOCTYPE html>
+<html lang="ru-ru" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, user-scalable=yes" name="viewport">
+    <title>{{ title }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        rel="stylesheet"
+        crossorigin="anonymous">
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://img.icons8.com/material-two-tone/24/null/source-code.png" id="favicon" rel="icon" type="image/x-icon">
+</head>
+<body>
+    <div class="container unselectable">
+        <h1>{{ text | safe }}</h1>
+        <h5>{{ little_text | safe }}</h5>
+        <hr>
+        <p>С перезагрузки прошло: {{ uptime }}</p>
+        <p>Текущее время: {{ time }} (GMT+3)</p>
+    </div>
+<div id="particles-js"></div>
+<script src="/static/js/particles.min.js"></script>
+<script src="/static/js/app.js"></script>
+
+</body>
+</html>

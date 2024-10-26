@@ -1,0 +1,7 @@
+aiohttp==3.10.10
+apscheduler==3.10.4
+fastapi==0.115.3
+hypercorn==0.17.3
+loguru==0.7.2
+uvicorn==0.32.0
+vkbottle==4.4.2

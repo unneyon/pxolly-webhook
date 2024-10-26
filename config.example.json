@@ -1,0 +1,12 @@
+{
+    "port": 6789,
+    "credential": {
+        "vk_token": "",
+        "pxolly_token": ""
+    },
+    "web-check": {
+        "title": "@pxolly: вебхук",
+        "text": "@pxolly: вебхук",
+        "little_text": "Вебхук для <a href=\"https://vk.com/pxolly\">@pxolly [VK]</a> работает!"
+    }
+}
